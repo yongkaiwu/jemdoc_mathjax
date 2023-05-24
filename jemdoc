@@ -674,7 +674,7 @@ def replacelinks(b):
 
     if m1[0] == '/':
         option = ''
-        m1 = m1[1:]
+        # m1 = m1[1:]
     else:
         option = ' target="blank"'
 
